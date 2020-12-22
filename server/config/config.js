@@ -27,7 +27,7 @@ process.env.MONGO_URL = process.env.NODE_ENV === 'dev' ? 'mongodb://localhost:27
  * 30 days
  */
 
-process.env.CADUCIDAD_TOKEN = 60 * 60 * 24 * 30
+process.env.CADUCIDAD_TOKEN = '48h'
 
 
 /********************************
